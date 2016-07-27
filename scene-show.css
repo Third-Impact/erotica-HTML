@@ -1,14 +1,19 @@
- /**body {
-	background-color: black;
-	background-image: url("http://www.templateof.com/postpic/2015/06/old-black-leather-texture_189908.jpg");
-} **/
-html { 
+body {
+	
   background: url("http://www.bannerelkbarra.com/wp-content/uploads/2013/12/black-leather.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }
+.container-fluid { 
+/*  background: url("http://www.bannerelkbarra.com/wp-content/uploads/2013/12/black-leather.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+*/}
 
 * {
 	font-family: 'Cutive Mono', Courier;
@@ -22,30 +27,13 @@ html {
 	font-family:cursive;
 }
 
-#login {
-	text-align: right;
-	position: absolute;
-	right:10px;
-}
+/** Styling for main area **/
 
-p:nth-child(2) {
-	text-align: right;
-}
 h1 {
 	text-align:center;
 }
 
-div a {
-	text-align: center;
-	color:black;
-	text-decoration: none;
-	font-weight: bold;
-}
 
-a:hover {
-	letter-spacing:2px;
-	color:#b30000;
-}
 a:visited {
 	color:#a6a6a6;
 }
@@ -56,9 +44,54 @@ a:visited {
 	margin-top:30px;
 	margin-left: auto; 
 	margin-right: auto;
+	margin-bottom: auto;
+	min-height: 150px;
 	background-image: url("http://thedigitalyardsale.com/freebies/7-17/old_paper6.jpg");
 }
 
 .options {
 	text-align: center;
+	color:black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.options a {
+	color:black;
+}
+.options a:hover {
+	letter-spacing:2px;
+	color:#b30000;
+	text-decoration: none;
+}
+
+.options a:visited {
+	color:#b30000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/** Style for the nav bar **/
+
+.nav a {
+	color:white;
+}
+
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:focus, 
+.nav-pills>li.active>a:hover{
+	background-color: #b30000;
+}
+
+.sidenav a:focus {
+	background-color: #660000;
+}
+
+.footerText {
+	color:white;
+	text-align: right;
+}
+.create_user {
+	text-align: center;
+	margin-left: auto; 
+	margin-right: auto;
 }
